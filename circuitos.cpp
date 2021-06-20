@@ -4,9 +4,9 @@ using namespace std;
 
 //Declarando variáveis e operações
 struct tCircuito {
-    int R1;
-    int R2;
-    int V1;
+    int R1 = 10;
+    int R2 = 20;
+    int V1 = 120;
     int req1 = R1 + R2; 
     int req2 = (R1*R2)/(R1+R2);
     int i1 = V1/req1;
